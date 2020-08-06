@@ -19,7 +19,7 @@ This is a simple implementation of Dynamo, Amazon's highly available key-value s
 + Distributed Membership
   - Joining peers are responsible for updating member lists in other peers
 + Data replication
- - Each key is replicated in the two directly clockwise peer server to the authoritative server
+  - Each key is replicated in the two directly clockwise peer server to the authoritative server
 
 # How To Run
 1. Run *./stop_compile.sh* to compile all files
