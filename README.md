@@ -25,11 +25,11 @@ This is a simple implementation of Dynamo, Amazon's highly available key-value s
 1. Run *./stop_compile.sh* to compile all files
 2. Run *rmiregistry* in the directory in which this project resides, 
 and wait a few moments for the rmiregistry command to process
-4. Run *java manager.ManagerImplementation* in a new terminal tab
-5. Run *java peer.PeerImplementation* in a new terminal tab
-6. Repeat step 5 until you are content with the number of peers
-7. Run *java client.clientImplementation* in a new terminal tab
-8. Follow the prompts in the client's tab to get() and put() information
+3. Run *java manager.ManagerImplementation* in a new terminal tab
+4. Run *java peer.PeerImplementation* in a new terminal tab
+5. Repeat step 5 until you are content with the number of peers
+6. Run *java client.clientImplementation* in a new terminal tab
+7. Follow the prompts in the client's tab to get() and put() information
 
 # Next Steps
 Learn what a Merkle tree is! Implement it here!
